@@ -1,6 +1,6 @@
 # GRPO-SLM
 
-This repository implements **Group Relative Policy Optimization (GRPO)** from scratch in PyTorch to train Small Reasoning LMs, following along with the video tutorial :contentReference[oaicite:1]{index=1}.
+This repository implements **Group Relative Policy Optimization (GRPO)** from scratch in PyTorch to train Small Reasoning LMs, following along with the video tutorial by Avishek Biswas https://www.youtube.com/watch?v=yGkJj_4bjpE 
 
 ## Structure
 
@@ -16,14 +16,14 @@ This repository implements **Group Relative Policy Optimization (GRPO)** from sc
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/grpo-slm.git
-cd grpo-slm
+git clone https://github.com/samroy6174/grpo_slm.git
+cd grpo_slm
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
+```
 
-
-# References
+## References
 
 Code from https://www.youtube.com/watch?v=yGkJj_4bjpE
